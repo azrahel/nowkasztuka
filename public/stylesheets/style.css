@@ -1,0 +1,202 @@
+
+/*@font-face {*/
+    /*font-family: 'gotham-book';*/
+    /*src: url('../fonts/Gotham-Book.eot');*/
+    /*src: local('☺'), url('../fonts/Gotham-Book.woff') format('woff'), url('../fonts/Gotham-Book.ttf') format('truetype'), url('../fonts/Gotham-Book.svg') format('svg');*/
+    /*font-weight: normal;*/
+    /*font-style: normal;*/
+/*}*/
+
+@font-face {
+    font-family: 'akkurat-light';
+    src: url('../fonts/Akkurat-Light.eot');
+    src: local('☺'), url('../fonts/Akkurat-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'akkurat-bold';
+    src: url('../fonts/AkkurPlBol.eot');
+    src: local('☺'), url('../fonts/AkkurPlBol.woff') format('woff'), url('../fonts/AkkurPlBol.ttf') format('truetype'), url('../fonts/AkkurPlBol.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'akkurat-bold-italic';
+    src: url('../fonts/Akkurat-BoldItalic.eot');
+    src: local('☺'), url('../fonts/Akkurat-BoldItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+body {
+    padding: 20px 30px;
+    margin:0;
+    font: 14px "gotham-book", Helvetica, Arial, sans-serif;
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+#mainContainer{
+    max-width: 1250px;
+    height: 300px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.lightBlue{
+    color: rgb(55, 188, 213)
+}
+
+.violet{
+    color: rgb(125, 14, 123)
+}
+
+.light{
+    font-family: "akkurat-light";
+}
+
+.bold{
+    font-family:'akkurat-bold';
+}
+
+.boldItalic{
+    font-family: "akkurat-bold-italic";
+}
+
+.logo{
+    font-size: 37px;
+    margin-left: 28px;
+}
+
+#menu{
+    width: 24.775%;
+    max-width:240px;
+    position:relative;
+    left:2%;
+    border-top: 20px solid;
+    border-bottom: 20px solid;
+    height:61%;
+    padding-top: 13px;
+    float:left;
+
+    border-color:rgb(125, 14, 123);
+}
+
+#fbMenuIcon{
+    position:absolute;
+    top:10px;
+    right:0px;
+}
+
+.vertical-text {
+    /* Safari */
+    -webkit-transform: rotate(-90deg);
+
+    /* Firefox */
+    -moz-transform: rotate(-90deg);
+
+    /* IE */
+    -ms-transform: rotate(-90deg);
+
+    /* Opera */
+    -o-transform: rotate(-90deg);
+
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+#dateAndInfoUnderMenu{
+    margin-top:100px;
+    height:320px;
+    border-bottom: 20px solid;
+    border-color:rgb(125, 14, 123);
+}
+
+#dateAndInfoUnderMenu .left{
+    color: #7D0E7B;
+    height: 70px;
+    width: 125px;
+    position: relative;
+    top: 195px;
+    font-size: 16px;
+    border-right: 20px solid #7D0E7B;
+    left: -30px;
+    font-weight: bold;
+}
+
+#dateAndInfoUnderMenu .right{
+    color: #37BCD5;
+    height: 120px;
+    width: 355px;
+    position: relative;
+    top: -30px;
+    font-size:37px;
+    text-align:right;
+    padding:5px;
+    padding-top:15px;
+    border-top: 20px solid #37BCD5;
+    left: -2px;
+    font-weight: bold;
+}
+
+#mainContent{
+     width: 70.660%;
+     position:relative;
+     right:2%;
+     border-top: 20px solid;
+     float:right;
+     top:0;
+     border-color: rgb(125, 14, 123);
+ }
+
+.logoFirstLine, .logoSecondLine{
+    font-size: 40px;
+    line-height: 36px;
+}
+
+.logoSecondLine{
+    margin-left:11px;
+}
+
+
+#mainMenu{
+    list-style-type: none;
+    text-align: left;
+    padding:0;
+}
+
+#mainMenu li{
+    line-height: 23px;
+    font-size: 23px;
+}
+
+#mainMenu li a{
+    color: rgb(55, 188, 213)
+}
+
+#mainMenu li a.active{
+    color: rgb(125, 14, 123)
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+    /* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+    #mainContent{
+        width: 70.660%;
+    }
+}

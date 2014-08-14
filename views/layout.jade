@@ -1,0 +1,35 @@
+doctype html
+html
+  head
+    title. NÓWKA SZTUKA
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    #mainContainer
+        #menu
+            span.bold.violet.logoFirstLine NÓWKA
+            br
+            span.bold.violet.logoSecondLine SZTUKA
+            a(href='http://facebook.pl')
+                img(src='../images/fbIcon.png')#fbMenuIcon
+            ul#mainMenu.lightBlue
+                li.bold
+                    a(href='/').active PROGRAM
+                li.bold
+                    a(href='/ofestiwalu') O FESTIWALU
+                li.bold
+                    a(href='bilety') BILETY
+                li.bold
+                    a(href='kontakt') KONTAKT
+            #dateAndInfoUnderMenu
+                .left.vertical-text
+                    span. 18-22.09.2014
+                    br
+                    span. Warszawa
+                .right.vertical-text
+                    span. DRAMATY
+                    br
+                    span. WSPÓŁCZESNEJ
+                    br
+                    span. POLSKI
+        #mainContent
+            block content
