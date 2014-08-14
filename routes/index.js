@@ -3,7 +3,8 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res) {
-  res.render('index', { header: 'PROGRAM' });
+  res.render('index', { header: 'PROGRAM', menuLink:
+    "a(href='/').active PROGRAM" });
 });
 
 router.get('/ofestiwalu', function(req, res) {
@@ -11,11 +12,11 @@ router.get('/ofestiwalu', function(req, res) {
 });
 
 router.get('/bilety', function(req, res) {
-    res.render('bilety');
+    res.render('bilety', { header: 'BILETY' });
 });
 
 router.get('/kontakt', function(req, res) {
-    res.render('kontakt');
+    res.render('kontakt', { header: 'KONTAKT' });
 });
 
 

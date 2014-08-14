@@ -3,6 +3,27 @@ html
   head
     title. NÓWKA SZTUKA
     link(rel='stylesheet', href='/stylesheets/style.css')
+    script(type='text/javascript' src='/javascripts/jquery-2.1.1.min.js')
+
+    script(type="text/javascript").
+        $(document).ready(function(){
+            $('#mainMenu').on('click', 'li', function(){
+                $(this).parent().find('.active').removeClass('active');
+                $(this).addClass('active')
+            });
+
+
+            if(window.location.href.indexOf("ofestiwalu") > -1) {
+                $('#mainMenu').children('li#ofestiwalu').children('a').addClass('active');
+            }
+            if(window.location.href.indexOf("bilety") > -1) {
+                $('#mainMenu').children('li#bilety').children('a').addClass('active');
+            }
+            if(window.location.href.indexOf("kontakt") > -1) {
+                $('#mainMenu').children('li#kontakt').children('a').addClass('active');
+            }
+        });
+
   body
     #mainContainer
         #menu
@@ -11,15 +32,17 @@ html
             span.bold.violet.logoSecondLine SZTUKA
             a(href='http://facebook.pl')
                 img(src='../images/fbIcon.png')#fbMenuIcon
+
             ul#mainMenu.lightBlue
-                li.bold
-                    a(href='/').active PROGRAM
-                li.bold
+                li.bold#program
+                    a(href='/') PROGRAM
+                li.bold#ofestiwalu
                     a(href='/ofestiwalu') O FESTIWALU
-                li.bold
+                li.bold#bilety
                     a(href='bilety') BILETY
-                li.bold
+                li.bold#kontakt
                     a(href='kontakt') KONTAKT
+
             #dateAndInfoUnderMenu
                 .left.vertical-text
                     span. 18-22.09.2014
@@ -32,4 +55,5 @@ html
                     br
                     span. POLSKI
         #mainContent
+            h1.violet= header
             block content
