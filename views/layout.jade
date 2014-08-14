@@ -22,6 +22,12 @@ html
             if(window.location.href.indexOf("kontakt") > -1) {
                 $('#mainMenu').children('li#kontakt').children('a').addClass('active');
             }
+            if(window.location.href.indexOf("/") > -1
+            && !(window.location.href.indexOf("kontakt") > -1)
+            && !(window.location.href.indexOf("bilety") > -1)
+            && !(window.location.href.indexOf("ofestiwalu") > -1)) {
+                $('#mainMenu').children('li#program').children('a').addClass('active');
+            }
         });
 
   body
