@@ -33,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ofestiwalu.jade" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ofestiwalu.jade" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/ofestiwalu.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.05717916" vertical-offset="0" max-vertical-offset="787">
-              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+            <state vertical-scroll-proportion="-2.4" vertical-offset="0" max-vertical-offset="465">
+              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -46,8 +46,8 @@
       <file leaf-file-name="kontakt.jade" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/kontakt.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.8" vertical-offset="0" max-vertical-offset="135">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state vertical-scroll-proportion="-3.0" vertical-offset="0" max-vertical-offset="1335">
+              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -76,31 +76,37 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.4814816" vertical-offset="2413" max-vertical-offset="3240">
-              <caret line="177" column="22" selection-start-line="177" selection-start-column="22" selection-end-line="177" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="2743" max-vertical-offset="3885">
+              <caret line="217" column="19" selection-start-line="217" selection-start-column="19" selection-end-line="217" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layout.jade" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="layout.jade" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/layout.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.4" vertical-offset="250" max-vertical-offset="1050">
-              <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.94375" vertical-offset="250" max-vertical-offset="1095">
+              <caret line="67" column="12" selection-start-line="67" selection-start-column="12" selection-end-line="67" selection-end-column="12" />
               <folding>
-                <marker date="1408040107000" expanded="true" signature="254:511" placeholder="{...}" />
-                <marker date="1408040107000" expanded="true" signature="254:542" placeholder="{...}" />
-                <marker date="1408040107000" expanded="true" signature="254:842" placeholder="{...}" />
-                <marker date="1408040107000" expanded="true" signature="254:1304" placeholder="{...}" />
-                <marker date="1408040107000" expanded="true" signature="256:1295" placeholder="{...}" />
-                <marker date="1408040107000" expanded="true" signature="256:1295" placeholder="{...}" />
-                <marker date="1408040107000" expanded="true" signature="311:441" placeholder="{...}" />
-                <marker date="1408040107000" expanded="true" signature="510:542" placeholder="{...}" />
-                <marker date="1408040107000" expanded="true" signature="510:616" placeholder="{...}" />
-                <marker date="1408040107000" expanded="true" signature="677:779" placeholder="{...}" />
-                <marker date="1408040107000" expanded="true" signature="841:944" placeholder="{...}" />
-                <marker date="1408040107000" expanded="true" signature="1191:1294" placeholder="{...}" />
+                <marker date="1408053158000" expanded="true" signature="254:511" placeholder="{...}" />
+                <marker date="1408053158000" expanded="true" signature="254:542" placeholder="{...}" />
+                <marker date="1408053158000" expanded="true" signature="254:842" placeholder="{...}" />
+                <marker date="1408053158000" expanded="true" signature="254:1295" placeholder="{...}" />
+                <marker date="1408053158000" expanded="true" signature="254:1295" placeholder="{...}" />
+                <marker date="1408053158000" expanded="true" signature="254:1304" placeholder="{...}" />
+                <marker date="1408053158000" expanded="true" signature="256:1295" placeholder="{...}" />
+                <marker date="1408053158000" expanded="true" signature="256:1295" placeholder="{...}" />
+                <marker date="1408053158000" expanded="true" signature="311:441" placeholder="{...}" />
+                <marker date="1408053158000" expanded="true" signature="510:616" placeholder="{...}" />
+                <marker date="1408053158000" expanded="true" signature="510:542" placeholder="{...}" />
+                <marker date="1408053158000" expanded="true" signature="510:616" placeholder="{...}" />
+                <marker date="1408053158000" expanded="true" signature="677:779" placeholder="{...}" />
+                <marker date="1408053158000" expanded="true" signature="677:779" placeholder="{...}" />
+                <marker date="1408053158000" expanded="true" signature="677:779" placeholder="{...}" />
+                <marker date="1408053158000" expanded="true" signature="677:779" placeholder="{...}" />
+                <marker date="1408053158000" expanded="true" signature="841:944" placeholder="{...}" />
+                <marker date="1408053158000" expanded="true" signature="1191:1294" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -125,11 +131,11 @@
         <option value="$PROJECT_DIR$/views/portfolio.jade" />
         <option value="$PROJECT_DIR$/views/onas.jade" />
         <option value="$PROJECT_DIR$/views/index.jade" />
-        <option value="$PROJECT_DIR$/views/kontakt.jade" />
         <option value="$PROJECT_DIR$/routes/index.js" />
-        <option value="$PROJECT_DIR$/views/layout.jade" />
-        <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
         <option value="$PROJECT_DIR$/views/ofestiwalu.jade" />
+        <option value="$PROJECT_DIR$/views/kontakt.jade" />
+        <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
+        <option value="$PROJECT_DIR$/views/layout.jade" />
       </list>
     </option>
   </component>
@@ -474,18 +480,24 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="180">
           <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="5" selection-end-column="6" />
           <folding>
-            <marker date="1408040107000" expanded="true" signature="254:511" placeholder="{...}" />
-            <marker date="1408040107000" expanded="true" signature="254:542" placeholder="{...}" />
-            <marker date="1408040107000" expanded="true" signature="254:842" placeholder="{...}" />
-            <marker date="1408040107000" expanded="true" signature="254:1304" placeholder="{...}" />
-            <marker date="1408040107000" expanded="true" signature="256:1295" placeholder="{...}" />
-            <marker date="1408040107000" expanded="true" signature="256:1295" placeholder="{...}" />
-            <marker date="1408040107000" expanded="true" signature="311:441" placeholder="{...}" />
-            <marker date="1408040107000" expanded="true" signature="510:542" placeholder="{...}" />
-            <marker date="1408040107000" expanded="true" signature="510:616" placeholder="{...}" />
-            <marker date="1408040107000" expanded="true" signature="677:779" placeholder="{...}" />
-            <marker date="1408040107000" expanded="true" signature="841:944" placeholder="{...}" />
-            <marker date="1408040107000" expanded="true" signature="1191:1294" placeholder="{...}" />
+            <marker date="1408053158000" expanded="true" signature="254:511" placeholder="{...}" />
+            <marker date="1408053158000" expanded="true" signature="254:542" placeholder="{...}" />
+            <marker date="1408053158000" expanded="true" signature="254:842" placeholder="{...}" />
+            <marker date="1408053158000" expanded="true" signature="254:1295" placeholder="{...}" />
+            <marker date="1408053158000" expanded="true" signature="254:1295" placeholder="{...}" />
+            <marker date="1408053158000" expanded="true" signature="254:1304" placeholder="{...}" />
+            <marker date="1408053158000" expanded="true" signature="256:1295" placeholder="{...}" />
+            <marker date="1408053158000" expanded="true" signature="256:1295" placeholder="{...}" />
+            <marker date="1408053158000" expanded="true" signature="311:441" placeholder="{...}" />
+            <marker date="1408053158000" expanded="true" signature="510:616" placeholder="{...}" />
+            <marker date="1408053158000" expanded="true" signature="510:542" placeholder="{...}" />
+            <marker date="1408053158000" expanded="true" signature="510:616" placeholder="{...}" />
+            <marker date="1408053158000" expanded="true" signature="677:779" placeholder="{...}" />
+            <marker date="1408053158000" expanded="true" signature="677:779" placeholder="{...}" />
+            <marker date="1408053158000" expanded="true" signature="677:779" placeholder="{...}" />
+            <marker date="1408053158000" expanded="true" signature="677:779" placeholder="{...}" />
+            <marker date="1408053158000" expanded="true" signature="841:944" placeholder="{...}" />
+            <marker date="1408053158000" expanded="true" signature="1191:1294" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -559,6 +571,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/views/ofestiwalu.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.4" vertical-offset="0" max-vertical-offset="465">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2743" max-vertical-offset="3885">
+          <caret line="217" column="19" selection-start-line="217" selection-start-column="19" selection-end-line="217" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/kontakt.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.0" vertical-offset="0" max-vertical-offset="1335">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
@@ -575,48 +611,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/kontakt.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.8" vertical-offset="0" max-vertical-offset="135">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.4814816" vertical-offset="2413" max-vertical-offset="3240">
-          <caret line="177" column="22" selection-start-line="177" selection-start-column="22" selection-end-line="177" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/layout.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.4" vertical-offset="250" max-vertical-offset="1050">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.94375" vertical-offset="250" max-vertical-offset="1095">
+          <caret line="67" column="12" selection-start-line="67" selection-start-column="12" selection-end-line="67" selection-end-column="12" />
           <folding>
-            <marker date="1408040107000" expanded="true" signature="254:511" placeholder="{...}" />
-            <marker date="1408040107000" expanded="true" signature="254:542" placeholder="{...}" />
-            <marker date="1408040107000" expanded="true" signature="254:842" placeholder="{...}" />
-            <marker date="1408040107000" expanded="true" signature="254:1304" placeholder="{...}" />
-            <marker date="1408040107000" expanded="true" signature="256:1295" placeholder="{...}" />
-            <marker date="1408040107000" expanded="true" signature="256:1295" placeholder="{...}" />
-            <marker date="1408040107000" expanded="true" signature="311:441" placeholder="{...}" />
-            <marker date="1408040107000" expanded="true" signature="510:542" placeholder="{...}" />
-            <marker date="1408040107000" expanded="true" signature="510:616" placeholder="{...}" />
-            <marker date="1408040107000" expanded="true" signature="677:779" placeholder="{...}" />
-            <marker date="1408040107000" expanded="true" signature="841:944" placeholder="{...}" />
-            <marker date="1408040107000" expanded="true" signature="1191:1294" placeholder="{...}" />
+            <marker date="1408053158000" expanded="true" signature="254:511" placeholder="{...}" />
+            <marker date="1408053158000" expanded="true" signature="254:542" placeholder="{...}" />
+            <marker date="1408053158000" expanded="true" signature="254:842" placeholder="{...}" />
+            <marker date="1408053158000" expanded="true" signature="254:1295" placeholder="{...}" />
+            <marker date="1408053158000" expanded="true" signature="254:1295" placeholder="{...}" />
+            <marker date="1408053158000" expanded="true" signature="254:1304" placeholder="{...}" />
+            <marker date="1408053158000" expanded="true" signature="256:1295" placeholder="{...}" />
+            <marker date="1408053158000" expanded="true" signature="256:1295" placeholder="{...}" />
+            <marker date="1408053158000" expanded="true" signature="311:441" placeholder="{...}" />
+            <marker date="1408053158000" expanded="true" signature="510:616" placeholder="{...}" />
+            <marker date="1408053158000" expanded="true" signature="510:542" placeholder="{...}" />
+            <marker date="1408053158000" expanded="true" signature="510:616" placeholder="{...}" />
+            <marker date="1408053158000" expanded="true" signature="677:779" placeholder="{...}" />
+            <marker date="1408053158000" expanded="true" signature="677:779" placeholder="{...}" />
+            <marker date="1408053158000" expanded="true" signature="677:779" placeholder="{...}" />
+            <marker date="1408053158000" expanded="true" signature="677:779" placeholder="{...}" />
+            <marker date="1408053158000" expanded="true" signature="841:944" placeholder="{...}" />
+            <marker date="1408053158000" expanded="true" signature="1191:1294" placeholder="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/ofestiwalu.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05717916" vertical-offset="0" max-vertical-offset="787">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>

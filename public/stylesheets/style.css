@@ -31,13 +31,15 @@
     font-style: normal;
 }
 
-
-
 body {
     padding: 20px 30px;
     margin:0;
     font: 14px "gotham-book", Helvetica, Arial, sans-serif;
 
+}
+
+iframe{
+    border:none !important;
 }
 
 a {
@@ -193,6 +195,47 @@ a {
     font-family: akkurat-bold;
     max-width: 700px;
     margin-top:50px;
+}
+
+#contact{
+    height: auto;
+    min-height:1200px;
+}
+
+.kafel{
+    display:inline-block;
+    margin-top:30px;
+    margin-right: 78px;
+    width:230px;
+    height:135px;
+    float:left;
+    padding: 15px 0;
+    border-top: 3px solid rgb(125, 14, 123);
+    border-bottom: 3px solid rgb(125, 14, 123);
+}
+
+.kafel:hover{
+    cursor:pointer;
+}
+
+.noRightMargin{
+    margin-right: 0 !important;
+}
+
+.bottomKafel{
+    border-top: none;
+    margin-top:5px;
+}
+
+
+#kafelHeader{
+    font-size: 16px;
+    line-height: 22px;
+}
+
+#kafelAddressData{
+    font-size: 14px;
+    line-height: 18px;
 }
 
 /* Desktops and laptops ----------- */
