@@ -187,6 +187,14 @@ a {
     color: rgb(125, 14, 123)
 }
 
+#aboutFestiwal{
+    font-size:18px;
+    line-height: 24px;
+    font-family: akkurat-bold;
+    max-width: 700px;
+    margin-top:50px;
+}
+
 /* Desktops and laptops ----------- */
 @media only screen
 and (min-width : 1224px) {
