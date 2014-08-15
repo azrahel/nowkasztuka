@@ -19,6 +19,10 @@ router.get('/kontakt', function(req, res) {
     res.render('kontakt', { header: 'KONTAKT' });
 });
 
+router.get('/program/wydarzeniatowarzyszace', function(req, res) {
+    res.render('wydarzeniatowarzyszace', { header: 'PROGRAM / WYDARZENIA TOWARZYSZĄCE' });
+});
+
 router.get('/program/:eventName', function(req, res) {
     if(req.params.eventName == 'najmniejszy'){
         res.render('kontakt', { header: 'KONTAKT' });

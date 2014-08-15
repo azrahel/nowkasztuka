@@ -333,6 +333,10 @@ a {
     font-size:25px;
 }
 
+.sizeTwoFour{
+    font-size:24px;
+}
+
 .sizeOneEight{
     font-size: 18px;
     line-height: 24px;
@@ -426,13 +430,84 @@ a {
     margin-bottom: 15px;
 }
 
+.sizeOneTwo{
+    font-size: 12px;
+}
+
+.black{
+    color:black;
+}
+
+/*=========WYDARZENIA TOWARZYSZĄCE=========*/
+
+.eventCategoryName {
+    color: #7D0E7B; /*violet*/
+    font-size:24px;
+    font-weight:bold;
+    margin-bottom:30px;
+}
+
+.eventName{
+    color: #7D0E7B;
+    font-size:24px;
+    font-weight:bold;
+}
+
+.eventDataWord{
+    margin-bottom:3px;
+    color:#37BCD5; /*lightBlue*/
+    font-size:12px;
+    font-family: akkurat-bold;
+}
+
+.actuallEventData{
+    color:#7D0E7B;
+    font-size:18px;
+    font-family: akkurat-light;
+}
+
+.eventPlaceWord{
+    margin-bottom:3px;
+    color:#37BCD5; /*lightBlue*/
+    font-size:12px;
+    font-family: akkurat-bold;
+}
+
+.actualEventPlace{
+    color:#7D0E7B;
+    font-size:18px;
+    font-family: akkurat-light;
+    margin-bottom:10px;
+}
+
+.aboutEventInfo{
+    font-family: akkurat-light;
+    color:black;
+    font-size: 18px;
+}
+
+.hour{
+    font-size:12;
+    font-family: akkurat-light;
+    color:#7D0E7B;
+}
 
 
+.leftColumn{
+    width:50%;
+    float:left;
+    padding-right:60px;
+    box-sizing: border-box;
+}
 
+.rightColumn{
+    width:50%;
+    float:right;
+}
 
-
-
-
+.floatLeft{
+    float:left;
+}
 /* Desktops and laptops ----------- */
 @media only screen
 and (min-width : 1224px) {
