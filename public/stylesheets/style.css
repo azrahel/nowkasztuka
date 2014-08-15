@@ -290,7 +290,7 @@ a {
 }
 
 #klub{
-    margin-left: 295px;
+    margin-left: 288px;
     top:13px;
     width:30px;
 }
@@ -404,4 +404,13 @@ and (min-width : 1824px) {
     #mainContent{
         width: 70.660%;
     }
+}
+
+#madeBy{
+    font-family: akkurat-light;
+    font-size:12px;
+    position:absolute;
+    bottom:0;
+    right:0;
+    padding-bottom: 4px;
 }
