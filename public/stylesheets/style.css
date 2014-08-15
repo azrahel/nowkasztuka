@@ -412,6 +412,7 @@ a {
 .event{
     width:250px;
     height:320px;
+    float:left;
     display:inline-block;
 }
 
