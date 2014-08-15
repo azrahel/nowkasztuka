@@ -392,6 +392,46 @@ a {
     width:600px;
     margin-bottom: 680px;
 }
+
+.programDay{
+
+}
+
+#thursday{
+    margin-top:48px;
+}
+
+#monday{
+    margin-bottom:50px;
+}
+
+.date{
+    margin-bottom: 12px;
+}
+
+.event{
+    width:250px;
+    height:320px;
+    display:inline-block;
+}
+
+.event:not(.lastRight) {
+    margin-right: 42px;
+}
+
+.eventImg{
+    width:250px;
+    height:170px;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
 /* Desktops and laptops ----------- */
 @media only screen
 and (min-width : 1224px) {

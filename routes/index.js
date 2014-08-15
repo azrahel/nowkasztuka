@@ -19,5 +19,17 @@ router.get('/kontakt', function(req, res) {
     res.render('kontakt', { header: 'KONTAKT' });
 });
 
+router.get('/program/:eventName', function(req, res) {
+    if(req.params.eventName == 'najmniejszy'){
+        res.render('kontakt', { header: 'KONTAKT' });
+    }
+    else{
+        res.status(err.status || 404);
+        res.render('error', {
+            message: 'Ta strona nie istnieje. Prawdopodobnie wpisano błędny adres...'
+        });
+    }
+});
+
 
 module.exports = router;
