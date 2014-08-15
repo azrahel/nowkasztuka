@@ -47,6 +47,10 @@ a {
     text-decoration: none;
 }
 
+.clear{
+    clear: both;
+}
+
 #mainContainer{
     max-width: 1250px;
     height: 300px;
@@ -114,6 +118,23 @@ a {
 
     /* Internet Explorer */
     filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.diagonal-text {
+    /* Safari */
+    -webkit-transform: rotate(-45deg);
+
+    /* Firefox */
+    -moz-transform: rotate(-45deg);
+
+    /* IE */
+    -ms-transform: rotate(-45deg);
+
+    /* Opera */
+    -o-transform: rotate(-45deg);
+
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1.5);
 }
 
 #dateAndInfoUnderMenu{
@@ -274,8 +295,103 @@ a {
     width:30px;
 }
 
+#tickets{
+    float:left;
+    width:600px;
+    height:330px;
+    margin-bottom: 150px;
+}
 
+#topTickets{
+    margin-top:30px;
+    padding: 10px 0;
+    display:table;
+    width:100%;
+    height:110px;
+    border-top: 5px solid rgb(125, 14, 123);
 
+}
+
+#middleTickets{
+    padding: 10px 0;
+    display:table;
+    width:100%;
+    height:110px;
+    border-top: 5px solid rgb(125, 14, 123);
+}
+
+#bottomTickets{
+    padding: 10px 0;
+    display:table;
+    width:100%;
+    height:110px;
+    border-top: 5px solid rgb(125, 14, 123);
+    border-bottom: 5px solid rgb(125, 14, 123);
+}
+
+.sizeTwoFive{
+    font-size:25px;
+}
+
+.sizeOneEight{
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.sizeOneFour{
+    font-size:14px;
+    line-height: 18px;
+}
+
+.buyTicketBox{
+    height:70px;
+    width:130px;
+    padding:5px;
+    vertical-align: middle;
+    display:table-cell;
+    border-right: 5px solid #37BCD5;
+    border-left: 5px solid #37BCD5;
+}
+
+.buyTicketInnerBox{
+    height:70px;
+    position:relative;
+    top:15px;
+    left:15px;
+}
+
+#infoBox{
+    margin-top:30px;
+    float:right;
+    border-top: 5px solid #37BCD5;
+    border-bottom: 5px solid #37BCD5;
+    width:200px;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: akkurat-light;
+    color: #37BCD5;
+    padding: 56px 0;
+    margin-left:20px;
+}
+
+#leftInfoColumn{
+    width:220px;
+    float:left;
+}
+
+#rightInfoColumn{
+    width:320px;
+    float:right;
+}
+
+#shittyMarginTop{
+    height:37px;
+}
+
+#ticketsInfo{
+    width:600px;
+    margin-bottom: 680px;
+}
 /* Desktops and laptops ----------- */
 @media only screen
 and (min-width : 1224px) {

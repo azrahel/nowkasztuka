@@ -1,17 +1,136 @@
-extends index
+extends layout
 
-block onasCategories
-    ul.onasCategories
-        li
-            a(href='#all') MAREK
-        li
-            a(href='#NOTHING') SZYMEK
-        li
-            a(href='#SOMETHING') WOJTEK
-        li
-            a(href='#ELSE') ASIA
-        li
-            a(href='#HERE') TOMEK
+block content
+    #tickets
+        #topTickets
+            span.violet.bold.sizeTwoFive.
+                35 PLN
+            br
+            br
+            span.lightBlue.light.
+                spektakle:
+            br
+            span.bold.lightBlue.sizeOneEight.
+                Na Boga!, Pancerni, Piszczyk, W samo południe,
+            br
+            span.bold.lightBlue.sizeOneEight.
+                Tato nie wraca,&nbsp
+            span.light.lightBlue.sizeOneEight.
+                koncert&nbsp
+            span.bold.lightBlue.sizeOneEight.
+                MISTER D.
+            .buyTicketBox
+                a(href='http://www.eventim.pl').lightBlue.bold
+                    .buyTicketInnerBox.diagonal-text.sizeTwoFive.
+                        KUP BILET
+        #middleTickets
+            span.violet.bold.sizeTwoFive.
+                25 PLN
+            br
+            br
+            span.lightBlue.bold.sizeOneEight.
+                spektakle dla dzieci i młodzieży
+            br
+            span.light.lightBlue.sizeOneFour.
+                przy zakupie 10 biletów zapewniony bezpłatny wstęp
+            br
+            span.light.lightBlue.sizeOneFour.
+                dla opiekuna grupy
+            .buyTicketBox
+                a(href='http://www.eventim.pl').lightBlue.bold
+                    .buyTicketInnerBox.diagonal-text.sizeTwoFive.
+                        KUP BILET
+        #bottomTickets
+            span.violet.bold.sizeTwoFive.
+                15 PLN
+            br
+            br
+            span.light.lightBlue.
+                koncert
+            br
+            span.bold.lightBlue.
+                The Dumplings
+            .buyTicketBox
+                a(href='http://www.eventim.pl').lightBlue.bold
+                    .buyTicketInnerBox.diagonal-text.sizeTwoFive.
+                        KUP BILET
+    #infoBox.
+        Bilety na wszystkie wydarzenia można również nabyć w Instytucie Teatralnym im. Zbigniewa Raszewskiego, w księgarni PROSPERO oraz w punktach sprzedaży sieci Eventim w całej Polsce (Bileterie Empik, Media Markt, Saturn).
+    .clear
+    #ticketsInfo
+        #leftInfoColumn.lightBlue
+            span.sizeOneEight.light.violet.
+                Informacje, rezerwacje biletów oraz zapisy na warsztaty:
+            br
+            br
+            span.bold.sizeOneEight.
+                Instytut Teatralny im. Zbigniewa Raszewskiego
+            br
+            span.light.sizeOneFour.
+                ul. jazdów 1
+            br
+            span.light.sizeOneFour.
+                bilety@instytut-teatralny.pl
+            br
+            span.light.sizeOneFour.
+                (22)501 70 02
+            br
+            span.light.sizeOneFour.
+                (pon.-pt.: g. 8:30-16:00)
 
-block innerContent
-                                 
+        #rightInfoColumn.sizeOneEight.light.lightBlue
+            span.sizeOneEight.light.violet.
+                W kasach teatrów można kupić bilety na spektakle grane w danym teatrze:
+            #shittyMarginTop
+            span.bold.sizeOneEight.
+                Teatr Powszechny im. Zygmunta Hübnera
+            br
+            span.light.sizeOneFour.
+                ul. Zamoyskiego 20
+            br
+            span.light.sizeOneFour.
+                kasa@powszechny.com
+            br
+            span.light.sizeOneFour.
+                (22)818 25 16
+            br
+            br
+            span.bold.sizeOneEight.
+                Teatr WARSawy
+            br
+            span.light.sizeOneFour.
+                Rynek Nowego Miasta 5/7
+            br
+            span.light.sizeOneFour.
+                bilety@teatrwarsawy.pl
+            br
+            span.light.sizeOneFour.
+                (22)468 00 99
+            br
+            br
+            span.bold.sizeOneEight.
+                Teatr Żydowski
+            br
+            span.bold.sizeOneEight.
+                im. Estery Rachel i Idy Kamińskich
+            br
+            span.light.sizeOneFour.
+                Plac Grzybowski 12/16
+            br
+            span.light.sizeOneFour.
+                kasa@teatr-zydowski.art.pl
+            br
+            span.light.sizeOneFour.
+                (22)850 56 56
+            br
+            br
+            span.bold.sizeOneEight.
+                Klubokawiarnia Dwa Osiem
+            br
+            span.light.sizeOneFour.
+                ul. Zamoyskiego 26a
+            br
+            span.light.sizeOneFour.
+                691 992 324
+    .clear
+
