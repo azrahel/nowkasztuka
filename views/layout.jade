@@ -3,7 +3,9 @@ html
   head
     title. NÓWKA SZTUKA
     link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets/jquery.fancybox.css')
     script(type='text/javascript' src='/javascripts/jquery-2.1.1.min.js')
+    script(type='text/javascript' src='/javascripts/jquery.fancybox.js')
 
     script(type="text/javascript").
         $(document).ready(function(){
@@ -12,6 +14,13 @@ html
                 $(this).addClass('active')
             });
 
+            $('.fancybox').fancybox(
+                {
+                    iframe: {
+                         scrolling : 'auto',
+                         preload   : true
+                     }
+                 });
 
             if(window.location.href.indexOf("ofestiwalu") > -1) {
                 $('#mainMenu').children('li#ofestiwalu').children('a').addClass('active');

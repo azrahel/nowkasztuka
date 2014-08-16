@@ -1,0 +1,141 @@
+extends layout
+
+block content
+    #eventGalery
+        a(href='../images/program/'+ event +'/'+ event +'1.jpg').fancybox
+            img(src='../images/program/'+ event +'/'+ event +'1.jpg').mainEventImage
+
+        #rightImgsColumn
+            if imgsNames != null
+                each imgName in imgsNames
+                    a(href="../images/program/"+ event +"/"+ imgName + ".jpg").fancybox
+                        img(src= "../images/program/"+ event +"/"+ imgName + ".jpg")
+
+    .clear.
+    #eventMainInfo
+        br
+        span.lightBlue.bold.sizeOneTwo.
+            data:
+        br
+        span.violet.light.sizeOneEight#eventDate
+            = date
+        br
+        span.lightBlue.bold.sizeOneTwo.
+            miejsce:
+        br
+        span.violet.light.sizeOneEight#eventPlace
+            = place
+        .buyTicketBox
+            a(href='http://www.eventim.pl').lightBlue.bold
+                .buyTicketInnerBox.diagonal-text.sizeTwoFive.
+                    KUP BILET
+    .clean.
+    span.black.sizeOneEight.light= author
+    br
+    span.violet.sizeTwoFour.bold= title
+    br
+    span.black.sizeOneEight.light= performers
+    .clean.
+    br
+    br
+
+    #blueEventInfo
+        if director != null
+            span.lightBlue.bold.sizeOneTwo.
+                reżyseria:&nbsp #[span.lightBlue.light.sizeOneEight= director ]
+            br
+        if dramaturgy != null
+            span.lightBlue.bold.sizeOneTwo.
+                dramaturgia:&nbsp #[span.lightBlue.light.sizeOneEight= dramaturgy ]
+            br
+        if dramaturgyCoop != null
+            span.lightBlue.bold.sizeOneTwo.
+                współpraca dramaturgiczna:&nbsp #[span.lightBlue.light.sizeOneEight= dramaturgyCoop ]
+            br
+        if scenography != null
+            span.lightBlue.bold.sizeOneTwo.
+                scenografia: &nbsp #[span.lightBlue.light.sizeOneEight= scenography ]
+            br
+        if lights != null
+            span.lightBlue.bold.sizeOneTwo.
+                światła:&nbsp #[span.lightBlue.light.sizeOneEight= lights ]
+            br
+        if costumes != null
+            span.lightBlue.bold.sizeOneTwo.
+                kostiumy:&nbsp #[span.lightBlue.light.sizeOneEight= costumes ]
+            br
+        if scenicMovement != null
+            span.lightBlue.bold.sizeOneTwo.
+                ruch sceniczny:&nbsp #[span.lightBlue.light.sizeOneEight= scenicMovement ]
+            br
+        if musicArrangement != null
+            span.lightBlue.bold.sizeOneTwo.
+                opracowanie muzyczne:&nbsp #[span.lightBlue.light.sizeOneEight= musicArrangement ]
+            br
+        if lightDirector != null
+            span.lightBlue.bold.sizeOneTwo.
+                reżyseria świateł:&nbsp #[span.lightBlue.light.sizeOneEight= lightDirector ]
+            br
+        if videoProjections != null
+            span.lightBlue.bold.sizeOneTwo.
+                projekcje video:&nbsp #[span.lightBlue.light.sizeOneEight= videoProjections ]
+            br
+        if directorAssistent != null
+            span.lightBlue.bold.sizeOneTwo.
+                asystent reżysera:&nbsp #[span.lightBlue.light.sizeOneEight= directorAssistent ]
+            br
+        if music != null
+            span.lightBlue.bold.sizeOneTwo.
+                muzyka: &nbsp #[span.lightBlue.light.sizeOneEight= music ]
+            br
+        if songsTexts != null
+            span.lightBlue.bold.sizeOneTwo.
+               teksty piosenek: &nbsp #[span.lightBlue.light.sizeOneEight= songsTexts ]
+            br
+        if actors != null
+            span.lightBlue.bold.sizeOneTwo.
+                obsada: &nbsp #[span.lightBlue.light.sizeOneEight= actors ]
+            br
+        if duration != null
+            span.lightBlue.bold.sizeOneTwo.
+                czas trwania: &nbsp #[span.lightBlue.light.sizeOneEight= duration ]
+    #eventDescription
+        = description
+    if targetAge != null
+        span.light.lightBlue.sizeOneEight
+            = targetAge
+        br
+    if prizes != null
+        span.light.lightBlue.sizeOneEight
+            = extraInfo
+        br
+        br
+    span.light.sizeOneEight.violet.
+        ZWIASTUN
+    br
+    br
+    iframe(width="880" height="565" src= trailerLink frameborder="0" allowfullscreen)
+    br
+    br
+    br
+    if prizes != null
+        #prizes
+            = prizes
+    if review != null
+        span.light.violet.sizeOneEight.
+            FRAGMENT RECENZJI
+        br
+        br
+        span.light.lightBlue.sizeOneEight
+            = review
+        br
+        span.light.violet.sizeOneEight
+            = reviewOrigin
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+    .clean.

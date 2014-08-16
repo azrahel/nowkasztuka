@@ -508,6 +508,68 @@ a {
 .floatLeft{
     float:left;
 }
+
+#eventGalery{
+    margin-top:53px;
+}
+
+.mainEventImage{
+    width:650px;
+    float:left;
+    margin-bottom:30px;
+    height: 430px;
+}
+
+#rightImgsColumn{
+    width:159px;
+    height:auto;
+    float:right;
+}
+
+#rightImgsColumn img{
+    width:100%;
+    display:inline-block;
+    height:105px;
+}
+
+#eventMainInfo{
+    padding: 10px 0;
+    display:table;
+    width:650px;
+    height:110px;
+    font-family: akkurat-light;
+    border-top: 5px solid rgb(125, 14, 123);
+    border-bottom: 5px solid rgb(125, 14, 123);
+}
+
+#eventMainInfo{
+    margin-bottom: 30px;
+}
+
+#blueEventInfo{
+    width:555px;
+    margin-bottom:30px;
+}
+
+#eventDescription{
+    font-size:18px;
+    font-family: akkurat-light;
+    margin-bottom: 30px;
+}
+
+#prizes{
+    border-top: 5px solid rgb(125, 14, 123);
+    border-bottom: 5px solid rgb(125, 14, 123);
+    height:auto;
+    font-family:akkurat-bold;
+    color:rgb(125, 14, 123);
+    font-size:18px;
+    padding: 15px 0;
+    margin: 30px 0;
+
+}
+
+
 /* Desktops and laptops ----------- */
 @media only screen
 and (min-width : 1224px) {
