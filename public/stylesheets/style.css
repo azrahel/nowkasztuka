@@ -40,6 +40,7 @@ body {
 
 iframe{
     border:none !important;
+    width:100%;
 }
 
 a {
@@ -83,18 +84,38 @@ a {
     margin-left: 28px;
 }
 
-#menu{
+#menuVertical{
     width: 24.775%;
     max-width:240px;
-    position:relative;
-    left:2%;
+    position:fixed;
     border-top: 20px solid;
-    border-bottom: 20px solid;
     height:61%;
     padding-top: 13px;
-    float:left;
-
+    float:right;
     border-color:rgb(125, 14, 123);
+}
+
+#mainMenu{
+    border-bottom: 20px solid;
+    border-color:rgb(125, 14, 123);
+    list-style-type: none;
+    text-align: left;
+    padding:0;
+    padding-bottom: 15px;
+    margin-bottom: -20px;
+}
+
+#mainMenu li{
+    line-height: 24px;
+    font-size: 24px;
+}
+
+#mainMenu li a{
+    color: rgb(55, 188, 213)
+}
+
+#mainMenu li a.active{
+    color: rgb(125, 14, 123)
 }
 
 #fbMenuIcon{
@@ -139,7 +160,7 @@ a {
 
 #dateAndInfoUnderMenu{
     margin-top:100px;
-    height:320px;
+    height:420px;
     border-bottom: 20px solid;
     border-color:rgb(125, 14, 123);
 }
@@ -149,25 +170,31 @@ a {
     height: 70px;
     width: 125px;
     position: relative;
-    top: 195px;
-    font-size: 16px;
+    top: 275px;
+    font-size: 24px;
+    padding-right: 60px;
+    padding-left:10px;
+    line-height: 24px;
+    font-family: akkurat-bold;
     border-right: 20px solid #7D0E7B;
-    left: -30px;
+    left: -72px;
     font-weight: bold;
 }
 
 #dateAndInfoUnderMenu .right{
     color: #37BCD5;
     height: 120px;
-    width: 355px;
+    width: 455px;
+    font-family: akkurat-bold;
     position: relative;
-    top: -30px;
-    font-size:37px;
+    top: 20px;
+    font-size:50px;
+    line-height: 42px;
     text-align:right;
     padding:5px;
     padding-top:15px;
     border-top: 20px solid #37BCD5;
-    left: -2px;
+    left: -65px;
     font-weight: bold;
 }
 
@@ -188,26 +215,6 @@ a {
 
 .logoSecondLine{
     margin-left:11px;
-}
-
-
-#mainMenu{
-    list-style-type: none;
-    text-align: left;
-    padding:0;
-}
-
-#mainMenu li{
-    line-height: 23px;
-    font-size: 23px;
-}
-
-#mainMenu li a{
-    color: rgb(55, 188, 213)
-}
-
-#mainMenu li a.active{
-    color: rgb(125, 14, 123)
 }
 
 #aboutFestiwal{
@@ -327,6 +334,10 @@ a {
     height:110px;
     border-top: 5px solid rgb(125, 14, 123);
     border-bottom: 5px solid rgb(125, 14, 123);
+}
+
+.interlineTwoFour{
+    line-height: 24px;
 }
 
 .sizeTwoFive{
@@ -569,11 +580,97 @@ a {
 
 }
 
+#menuHorizontal{
+    display:none;
+}
+
+#mainMenuHorizontal{
+    border-color:rgb(125, 14, 123);
+    list-style-type: none;
+}
+
+#mainMenuHorizontal li{
+    line-height: 23px;
+    font-size: 23px;
+    display:inline;
+    list-style-type: none;
+    padding-right: 20px;
+}
+
+#mainMenuHorizontal li a{
+    color: rgb(55, 188, 213);
+}
+
+#mainMenuHorizontal li a.active{
+    color: rgb(125, 14, 123)
+}
+
+#fbMenuIconHorizontal{
+    position:absolute;
+    right:0px;
+}
+
+
+@media only screen
+and (max-width : 1274px) {
+    .footerHeader{
+        display:none;
+    }
+
+    #footer{
+        margin-top:100px;
+    }
+}
 
 /* Desktops and laptops ----------- */
 @media only screen
-and (min-width : 1224px) {
-    /* Styles */
+and (max-width : 1124px) {
+    #menuHorizontal{
+        z-index:100;
+        position:fixed;
+        background: #FFFFFF;
+        top:30px;
+        margin:0 auto;
+        width: 85%;
+        display:block;
+        border-top: 20px solid;
+        border-bottom: 20px solid;
+        height:90px;
+        padding-top: 17px;
+        left:7.5%;
+        border-color:rgb(125, 14, 123);
+        text-align: center;
+    }
+
+    .event:not(.lastRight) {
+        margin-right:42px;
+    }
+
+    #mainContent{
+        float:none;
+        margin:0 auto;
+        top:200px;
+        width:90.3%;
+        right:0;
+        left:0.3%;
+        border-top:none;
+    }
+
+    .footerHeader{
+        display:none;
+    }
+
+    #menuVertical{
+        display:none;
+    }
+
+    img#fbMenuIconHorizontal{
+
+    }
+
+    ul#mainMenuHorizontal{
+
+    }
 }
 
 /* Large screens ----------- */
@@ -584,10 +681,49 @@ and (min-width : 1824px) {
     }
 }
 
+@media only screen
+and (max-width : 824px) {
+    #mainContent{
+        width:100%;
+        margin-top:-30px;
+        border-top:none;
+    }
+
+    .event{
+        width:220px
+    }
+
+    .eventImg{
+        width:220px
+    }
+
+    #menuHorizontal{
+        width:90.4%;
+        left:30px;
+    }
+
+    #mainMenuHorizontal{
+        left:-20px;
+        position:relative;
+    }
+
+    #mainMenuHorizontal li{
+        line-height: 19px;
+        font-size: 19px;
+        display:inline;
+        list-style-type: none;
+        padding-right: 5px;
+    }
+
+    .event:not(.lastRight) {
+        margin-right:12px;
+    }
+}
+
 #madeBy{
     font-family: akkurat-light;
     font-size:12px;
-    position:absolute;
+    position:relative;
     bottom:0;
     right:0;
     padding-bottom: 4px;

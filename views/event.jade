@@ -30,11 +30,11 @@ block content
                 .buyTicketInnerBox.diagonal-text.sizeTwoFive.
                     KUP BILET
     .clean.
-    span.black.sizeOneEight.light= author
+    span.black.sizeOneEight.interlineTwoFour.light= author
     br
-    span.violet.sizeTwoFour.bold= title
+    span.violet.sizeTwoFour.interlineTwoFour.bold= title
     br
-    span.black.sizeOneEight.light= performers
+    span.black.sizeOneEight.interlineTwoFour.light= performers
     .clean.
     br
     br
@@ -99,7 +99,7 @@ block content
         if duration != null
             span.lightBlue.bold.sizeOneTwo.
                 czas trwania: &nbsp #[span.lightBlue.light.sizeOneEight= duration ]
-    #eventDescription
+    #eventDescription.interlineTwoFour
         = description
     if targetAge != null
         span.light.lightBlue.sizeOneEight

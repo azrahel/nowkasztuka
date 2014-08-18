@@ -14,13 +14,6 @@ html
                 $(this).addClass('active')
             });
 
-            $('.fancybox').fancybox(
-                {
-                    iframe: {
-                         scrolling : 'auto',
-                         preload   : true
-                     }
-                 });
 
             if(window.location.href.indexOf("ofestiwalu") > -1) {
                 $('#mainMenu').children('li#ofestiwalu').children('a').addClass('active');
@@ -37,11 +30,42 @@ html
             && !(window.location.href.indexOf("ofestiwalu") > -1)) {
                 $('#mainMenu').children('li#program').children('a').addClass('active');
             }
+
+
+           $('#mainMenuHorizontal').on('click', 'li', function(){
+               $(this).parent().find('.active').removeClass('active');
+               $(this).addClass('active')
+           });
+         if(window.location.href.indexOf("ofestiwalu") > -1) {
+               $('#mainMenuHorizontal').children('li#ofestiwalu').children('a').addClass('active');
+           }
+           if(window.location.href.indexOf("bilety") > -1) {
+               $('#mainMenuHorizontal').children('li#bilety').children('a').addClass('active');
+           }
+           if(window.location.href.indexOf("kontakt") > -1) {
+               $('#mainMenuHorizontal').children('li#kontakt').children('a').addClass('active');
+           }
+           if(window.location.href.indexOf("/") > -1
+           && !(window.location.href.indexOf("kontakt") > -1)
+           && !(window.location.href.indexOf("bilety") > -1)
+           && !(window.location.href.indexOf("ofestiwalu") > -1)) {
+               $('#mainMenuHorizontal').children('li#program').children('a').addClass('active');
+           }
+
+
+
+            $('.fancybox').fancybox(
+            {
+                iframe: {
+                scrolling : 'auto',
+                preload   : true
+                }
+            });
         });
 
   body
     #mainContainer
-        #menu
+        #menuVertical
             a(href='/')
                 span.bold.violet.logoFirstLine NÓWKA
                 br
@@ -55,9 +79,9 @@ html
                 li.bold#ofestiwalu
                     a(href='/ofestiwalu') O FESTIWALU
                 li.bold#bilety
-                    a(href='bilety') BILETY
+                    a(href='/bilety') BILETY
                 li.bold#kontakt
-                    a(href='kontakt') KONTAKT
+                    a(href='/kontakt') KONTAKT
 
             #dateAndInfoUnderMenu
                 .left.vertical-text
@@ -70,8 +94,25 @@ html
                     span. WSPÓŁCZESNEJ
                     br
                     span. POLSKI
+        #menuHorizontal
+
+            a(href='/')
+                span.bold.violet.logoFirstLine NÓWKA SZTUKA
+            a(href='http://facebook.pl')
+                img(src='../images/fbIcon.png')#fbMenuIconHorizontal
+
+            ul#mainMenuHorizontal.lightBlue
+                li.bold#program
+                    a(href='/') PROGRAM
+                li.bold#ofestiwalu
+                    a(href='/ofestiwalu') O FESTIWALU
+                li.bold#bilety
+                    a(href='/bilety') BILETY
+                li.bold#kontakt
+                    a(href='/kontakt') KONTAKT
+
         #mainContent
-            h1.violet= header
+            h1.violet.bold.sizeTwoFour= header
             block content
 
             span#organizatorzy.footerHeader.light.
@@ -109,9 +150,14 @@ html
                 a(href='https://www.facebook.com/dwadziesciaosiem')
                     img(src='../images/footerLogo12.png')
                 #madeBy
+                    a(href='http://www.osmycki.com')
+                        span.violet.
+                            Projekt &nbsp
+                        span.lightBlue.
+                            osmycki.com,&nbsp&nbsp&nbsp
                     a(href='http://www.freehopper.pl')
                         span.violet.
-                            Made by&nbsp
+                            wykonanie&nbsp
                         span.lightBlue.
                             Freehopper
 
