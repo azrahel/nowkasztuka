@@ -64,7 +64,7 @@ a {
 }
 
 .violet{
-    color: rgb(125, 14, 123)
+    color: rgb(125, 43, 139)
 }
 
 .light{
@@ -92,12 +92,12 @@ a {
     height:61%;
     padding-top: 13px;
     float:right;
-    border-color:rgb(125, 14, 123);
+    border-color:rgb(125, 43, 139);
 }
 
 #mainMenu{
     border-bottom: 20px solid;
-    border-color:rgb(125, 14, 123);
+    border-color:rgb(125, 43, 139);
     list-style-type: none;
     text-align: left;
     padding:0;
@@ -115,7 +115,7 @@ a {
 }
 
 #mainMenu li a.active{
-    color: rgb(125, 14, 123)
+    color: rgb(125, 43, 139)
 }
 
 #fbMenuIcon{
@@ -162,7 +162,7 @@ a {
     margin-top:100px;
     height:420px;
     border-bottom: 20px solid;
-    border-color:rgb(125, 14, 123);
+    border-color:rgb(125, 43, 139);
 }
 
 #dateAndInfoUnderMenu .left{
@@ -205,7 +205,7 @@ a {
      border-top: 20px solid;
      float:right;
      top:0;
-     border-color: rgb(125, 14, 123);
+     border-color: rgb(125, 43, 139);
  }
 
 .logoFirstLine, .logoSecondLine{
@@ -239,8 +239,8 @@ a {
     height:135px;
     float:left;
     padding: 15px 0;
-    border-top: 3px solid rgb(125, 14, 123);
-    border-bottom: 3px solid rgb(125, 14, 123);
+    border-top: 3px solid rgb(125, 43, 139);
+    border-bottom: 3px solid rgb(125, 43, 139);
 }
 
 .kafel:hover{
@@ -315,7 +315,7 @@ a {
     display:table;
     width:100%;
     height:110px;
-    border-top: 5px solid rgb(125, 14, 123);
+    border-top: 5px solid rgb(125, 43, 139);
 
 }
 
@@ -324,7 +324,7 @@ a {
     display:table;
     width:100%;
     height:110px;
-    border-top: 5px solid rgb(125, 14, 123);
+    border-top: 5px solid rgb(125, 43, 139);
 }
 
 #bottomTickets{
@@ -332,8 +332,8 @@ a {
     display:table;
     width:100%;
     height:110px;
-    border-top: 5px solid rgb(125, 14, 123);
-    border-bottom: 5px solid rgb(125, 14, 123);
+    border-top: 5px solid rgb(125, 43, 139);
+    border-bottom: 5px solid rgb(125, 43, 139);
 }
 
 .interlineTwoFour{
@@ -525,10 +525,18 @@ a {
 }
 
 .mainEventImage{
-    width:650px;
-    float:left;
+    width:auto;
+    margin:0 auto;
     margin-bottom:30px;
     height: 430px;
+    display:block;
+}
+
+#mainImageContainer{
+    display:inline-block;
+    width:calc(100% - 159px);
+    padding-right:70px;
+    box-sizing: border-box;
 }
 
 #rightImgsColumn{
@@ -538,9 +546,12 @@ a {
 }
 
 #rightImgsColumn img{
-    width:100%;
-    display:inline-block;
-    height:105px;
+    width: auto;
+    display: block;
+    height: 105px;
+    margin:0 auto;
+    margin-bottom: 5px;
+    float:right;
 }
 
 #eventMainInfo{
@@ -549,8 +560,8 @@ a {
     width:650px;
     height:110px;
     font-family: akkurat-light;
-    border-top: 5px solid rgb(125, 14, 123);
-    border-bottom: 5px solid rgb(125, 14, 123);
+    border-top: 5px solid rgb(125, 43, 139);
+    border-bottom: 5px solid rgb(125, 43, 139);
 }
 
 #eventMainInfo{
@@ -569,11 +580,11 @@ a {
 }
 
 #prizes{
-    border-top: 5px solid rgb(125, 14, 123);
-    border-bottom: 5px solid rgb(125, 14, 123);
+    border-top: 5px solid rgb(125, 43, 139);
+    border-bottom: 5px solid rgb(125, 43, 139);
     height:auto;
     font-family:akkurat-bold;
-    color:rgb(125, 14, 123);
+    color:rgb(125, 43, 139);
     font-size:18px;
     padding: 15px 0;
     margin: 30px 0;
@@ -585,7 +596,7 @@ a {
 }
 
 #mainMenuHorizontal{
-    border-color:rgb(125, 14, 123);
+    border-color:rgb(125, 43, 139);
     list-style-type: none;
 }
 
@@ -602,7 +613,7 @@ a {
 }
 
 #mainMenuHorizontal li a.active{
-    color: rgb(125, 14, 123)
+    color: rgb(125, 43, 139)
 }
 
 #fbMenuIconHorizontal{
@@ -638,7 +649,7 @@ and (max-width : 1124px) {
         height:90px;
         padding-top: 17px;
         left:7.5%;
-        border-color:rgb(125, 14, 123);
+        border-color:rgb(125, 43, 139);
         text-align: center;
     }
 

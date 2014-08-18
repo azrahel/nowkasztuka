@@ -45,7 +45,8 @@ router.get('/program/:eventName', function(req, res) {
             review: '(…) Inteligentna i zabawna opowieść Maliny Prześlugi oraz błyskotliwa reżyseria Anety Głuch-Klucznik złożyły się na fenomenalne widowisko, dalekie od banalnego dydaktyzmu i kiczowatej wyobraźni. Autorzy zaufali spostrzegawczości dzieci; przyjęli, że każde z nich odbiera i rozumie świat na swój indywidualny sposób. (…) Wielki sukces „Najmniejszego balu świata” bierze się w znacznej mierze stąd, że twórcy (…) wyciągnęli wnioski z tego, co wiedzą o dzisiejszym małym widzu, przede wszystkim o jego aktywności we współczesnym świecie, łatwości obsługi komputerów, iPadów etc. (…) Udało się wykreować na scenie nierzeczywisty, ale zrozumiały, wiarygodny świat, który dzieci z łatwością rozumieją i bezbłędnie rozpoznają jego elementy.',
             reviewOrigin:'Marta Bryś, „Dziecko to nie przedmiot',
             imgsNames: ['najmniejszybalswiata2','najmniejszybalswiata3','najmniejszybalswiata4','najmniejszybalswiata5'],
-            trailerLink: 'http://www.youtube.com/embed/88RPuWrLAKM'
+            trailerLink: 'http://www.youtube.com/embed/88RPuWrLAKM',
+            photoAutor: 'Najmniejszy bal świata - fot. Maciej Stobierski'
         });
     }
     if(req.params.eventName == 'ony'){
@@ -66,7 +67,8 @@ router.get('/program/:eventName', function(req, res) {
             review: '(…) Spektakl ma wymiar egzystencjalnego traktatu o drodze człowieka, który stopniowo traci dziecięce złudzenia, czy może raczej – dziecięcą optykę. Bohater sztuki został nazwany przez autorkę Ony, więc ani to on, ani ona, ani dziecko, ani dorosły, chciałoby się rzec filozoficznie – i chyba nie będzie w tym wiele przesady – Każdy. Bardziej przemawiająca wydaje się jednak zawarta w tym słowie próba określenia trudno definiowalnej, bo właśnie w tym wieku się definiującej, tożsamości głównego bohatera, ale jednocześnie także adresata tej sztuki – już nie dziecka, jeszcze nie dorosłego, zaczynającego postrzegać świat zupełnie innym niż do tej pory, uczącego się co w relacjach międzyludzkich oznacza jego płciowość, etc. (…) Reżyserka „Onego”, Alina Moś-Kerger (…) doskonale czuje złożoną wrażliwość swojej publiczności. W tym spektaklu kumuluje się wiele zalet teatru dla młodzieży – na czele z przemożną potrzebą komunikacji z młodym widzem.',
             reviewOrigin:'Szymon Kazimierczak, "Homo viator"',
             imgsNames: ['ony2','ony3','ony4','ony5'],
-            trailerLink: 'http://www.youtube.com/embed/ad461OX6N5M'
+            trailerLink: 'http://www.youtube.com/embed/ad461OX6N5M',
+            photoAutor: 'Ony - fot. Ewa Kunicka'
         });
     }
     if(req.params.eventName == 'tatoniewraca'){
@@ -86,7 +88,8 @@ router.get('/program/:eventName', function(req, res) {
             review: '(…) Styl tekstu Rowickiego pozbawiony jest zbędnych ozdobników, znajduje się w nim jednak miejsce na kpinę z korporacyjnej nowomowy czy fantazji o azylu rodzinnego szczęścia. Autor nie porywa się też na estetyzację traumy, walczy raczej o zbudowanie na widowni wspólnoty – z członków społeczeństwa, które żegna się z mitem o tradycyjnym, silnym ojcostwie, a z rozmaitych społecznych przyczyn – często z ojcostwem i ojcem jako takim. Siłą ma być więc w pewnym sensie przeciętność – historia jakich wiele, opowieść o krzywdzie podawana chwilami z zaskakującą – niemal psychotyczną – lekkością.',
             reviewOrigin:'Witold Mrozek "Po ojcu"',
             imgsNames: ['tatoniewraca2','tatoniewraca3','tatoniewraca4','tatoniewraca5'],
-            trailerLink: 'http://www.youtube.com/embed/QlFEdGXAKpU'
+            trailerLink: 'http://www.youtube.com/embed/QlFEdGXAKpU',
+            photoAutor: 'Tato nie wraca - fot. Katarzyna Chmura-Cegiełkowska'
         });
     }
     if(req.params.eventName == 'wladcaskarpetek'){
@@ -110,7 +113,8 @@ router.get('/program/:eventName', function(req, res) {
             review: '(…) „Władca skarpetek” to teatr dla dzieci trochę staromodny w budowaniu narracji, ale rewelacyjny od strony teatralnej i chciałoby się, żeby więcej spektakli w tak zabawny i mądry sposób zajmowało się wspieraniem rodziców w trudzie wychowania. Należy się również cieszyć, że w teatrze dla młodych widzów pojawił się kolejny ciekawy twórca. (…) To przykład „teatru rodzinnego”, w którym każda grupa wiekowa może znaleźć coś dla siebie: jest i regularna baśń z przesłaniem, i zgrabnie, inteligentnie, dowcipnie napisane dialogi. Dla tych lepiej osadzonych w rzeczywistości kulturowej pojawiają się takie klejnociki, jak homar Homer czy krewetka, która pod wpływem psychodelicznej chmury zmienia imię z Sushi San na Wasabi. Inscenizacja dodaje do tego inne konteksty, jak wystylizowanie baru, w którym spotykają się główni bohaterowie, na ten znany z filmu „Gwiezdne wojny”.',
             reviewOrigin:'Joanna Ostrowska "Po co jest teatr dla młodego widza?"',
             imgsNames: ['wladcaskarpetek2','wladcaskarpetek3','wladcaskarpetek4'],
-            trailerLink: 'http://www.youtube.com/embed/JkY6x8n0M4A'
+            trailerLink: 'http://www.youtube.com/embed/JkY6x8n0M4A',
+            photoAutor: 'Władca skarpetek - fot. Krzysztof Kołowicz'
         });
     }
     if(req.params.eventName == 'piszczyk'){
@@ -138,7 +142,8 @@ router.get('/program/:eventName', function(req, res) {
             review: '(…) Nie trzeba koniecznie być byłym powstańcem, żeby czuć się ofiarą gloryfikacji narodowego tragizmu. Klęska romantycznej powinności przechodzi na kolejne pokolenia, także dzisiejszych trzydziestolatków. Śledząc dyskusje o polskiej polityce historycznej można ulec wrażeniu, że tradycja wychowania w duchu bohaterskim nigdy się u nas nie skończy i chyba tylko żart, pusta w środku zabawka, która wydaje dźwięk, gdy na nią nadepnąć, może wreszcie rozbroić tę nadętą narrację. Piszczyk, którego dziś oglądamy na scenie (…) wchodzi w każdą sytuację jak w masło, nie z musu, nie z przekonania, lecz z prostej chęci, by się spróbować, ale też drobnomieszczańsko pokazać.',
             reviewOrigin:'Adriana Prodeus, "Dreamlinerem"',
             imgsNames: ['piszczyk2','piszczyk3','piszczyk4','piszczyk5'],
-            trailerLink: 'http://www.youtube.com/embed/5aZVL5YfvS0'
+            trailerLink: 'http://www.youtube.com/embed/5aZVL5YfvS0',
+            photoAutor: 'Piszczyk - fot. Marek Zakrzewski'
         });
     }
     if(req.params.eventName == 'misterd'){
@@ -150,7 +155,8 @@ router.get('/program/:eventName', function(req, res) {
             title: 'MISTER D.',
             bandMembers: 'Piotr Gwadera, Marcin Macuk, Dorota Masłowska, Kuba Wandachowicz',
             description: 'Mister D. to muzyczne wcielenie Doroty Masłowskiej, pisarki i autorki tekstów często wystawianych na polskich scenach. Spektakle na podstawie jej dramatów były kilkakrotnie nagradzane w Ogólnopolskim Konkursie na Wystawienie Polskiej Sztuki Współczesnej. Album Mister D. pt. Społeczeństwo jest niemiłe wydany w lutym 2014 roku nakładem Galerii Raster jest autorską, domową mieszanką rapu, punka i muzyki tanecznej. W warstwie tekstowej to psychodeliczny zlep opowieści z popularnej prasy, wyrażony statystycznie polskim językiem i właściwym mu sposobem rozumowania.',
-            trailerLink: 'http://www.youtube.com/embed/-1-z48cJDbc'
+            trailerLink: 'http://www.youtube.com/embed/-1-z48cJDbc',
+            photoAutor: 'MISTER D.'
         });
     }
     if(req.params.eventName == 'pancerni'){
@@ -172,7 +178,8 @@ router.get('/program/:eventName', function(req, res) {
             review: 'RECENZJA: (…) Gdy wychodziłem do teatru, przez ekran telewizora w pokoju hotelowym leciały czerwone paski mówiące o koncentracji wojsk na stosunkowo niedalekiej granicy, o niezidentyfikowanych grupach bojowych operujących na terytorium suwerennego państwa, o trosce dużego kraju z dużą armią, który czuje się w obowiązku przyjść z pomocą swoim obywatelom na terenie sąsiedniego małego kraju z marną armią. (…) A co, jeżeli nic już nie będzie tak pięknie – czego nie doceniacie – jak jest dziś? Jeśli dialogi Stalina z Mikołajczykiem przestaną być zadaniem aktorskim, tylko staną się – już się stają – przedmiotem doniesień agencji informacyjnej? Jeśli nie da się położyć spać jak najwcześniej i spać jak najdłużej, bo niegumowe czołgi i samoloty strasznie hałasują? Jeśli nie da się kpić z filmowej pirotechniki, bo pirotechnika będzie prawdziwa i będą od niej ginąć ludzie? Niechby i za miedzą – ale naprawdę za miedzą, a nie w telewizorze czy w teatrze? I kłopoty, jakie by teraz przedstawienie przygotować i, zwłaszcza, skąd wziąć na nie kasę, staną się nagle jakieś takie nie na miejscu? Żenujące kto wie czy nie w takim samym stopniu, jak tamta żołnierska, skłamana, propagandowa i manipulatorska polsko sowiecka bajęda? Niech diabli wezmą wojnę. Jak najprędzej.',
             reviewOrigin:'Jacek Sieradzki, "Czołg dmuchany"',
             imgsNames: ['pancerni2','pancerni3','pancerni4','pancerni5'],
-            trailerLink: 'http://www.youtube.com/embed/W-YuA9gs0rU'
+            trailerLink: 'http://www.youtube.com/embed/W-YuA9gs0rU',
+            photoAutor: 'Pancerni - fot. Bartek Warzecha'
         });
     }
     if(req.params.eventName == 'thedumplings'){
@@ -184,7 +191,8 @@ router.get('/program/:eventName', function(req, res) {
             title: 'The Dumplings',
             bandMembers: 'Kuba Karaś (muzyka), Justyna Święs (śpiew, muzyka)',
             description: 'The Dumplings to nie tylko zespół okrzyknięty odkryciem ostatniego sezonu. Młodzi muzycy są również twórcami muzyki do spektaklu Ony, który prezentowany jest podczas tegorocznej NÓWKI SZTUKI. The Dumplings łączy w swojej twórczości młodość z bezkompromisowością, pokoleniowe teksty ze świeżym spojrzeniem na elektronikę, chwytliwe melodie z tanecznym smutkiem. Duet Święs-Karaś otrzymał nagrody magazynu Hiro w kategoriach: Przyszłość Roku i Odkrycie Roku. Aktualnie zespół promuje swój debiutancki album No Bad Days.',
-            trailerLink: 'http://www.youtube.com/embed/qsODEfkIJu0'
+            trailerLink: 'http://www.youtube.com/embed/qsODEfkIJu0',
+            photoAutor: 'The Dumplings - fot. Arkadiusz Nowakowski'
         });
     }
     if(req.params.eventName == 'sam'){
@@ -207,7 +215,8 @@ router.get('/program/:eventName', function(req, res) {
             review: '(…) Eksperyment Wrocławskiego Teatru Lalek dowodzi, że odpowiednio przemyślany język i problematyka spektaklu pozwalają bez trudu nawiązać porozumienie z młodą widownią, unikając protekcjonalnego i dydaktycznego tonu. (…) Widownia wydawała się niekiedy skonsternowana aktualnością tematu i tym, jak bardzo przedstawienie odbiega od sztampowych inscenizacji Fredry czy Słowackiego, które obowiązkowo szkoła musi zaliczyć, a które skutecznie odstraszają młodzież od teatru. Napisany zrozumiałym językiem „SAM…”, odwołując się do współczesnej wyobraźni wysyła prostą informację, że teatr może mówić do nich i o nich.',
             reviewOrigin:'Marta Bryś, "Przygotowanie do życie w czasach popkultury"',
             imgsNames: ['sam2','sam3','sam4','sam5'],
-            trailerLink: 'http://www.youtube.com/embed/GdzPkrNGWFw'
+            trailerLink: 'http://www.youtube.com/embed/GdzPkrNGWFw',
+            photoAutor: 'SAM, czyli przygotowanie do życia w rodzinie - fot. Karol Krukowski'
         });
     }
     if(req.params.eventName == 'naboga'){
@@ -233,7 +242,8 @@ router.get('/program/:eventName', function(req, res) {
             review: '(…) Fabuła spektaklu nawiązuje do znanych konfliktów na tle polityczno-religijnym, jak chociażby ostry spór o obecność krzyża pod Pałacem Prezydenckim, ale wydaje się, że Murawski próbuje poszerzyć perspektywę i przeprowadzić diagnozę napięć społecznych w kontekście religii. Przygląda się konsekwencjom używania jej jako szantażu w debacie publicznej i utożsamiania z wartościami narodowymi. (…)Konflikt ideologiczny, nietożsamy przecież ze sporami teologicznymi, doprowadził do sytuacji, w której nie ma przestrzeni na dyskusję, a każdy głos odbierany jest jako atak. ',
             reviewOrigin:'Marta Bryś, "Jak krzyż, to biało-czerwony"',
             imgsNames: ['naboga2','naboga3','naboga4','naboga5'],
-            trailerLink: 'http://www.youtube.com/embed/bmTCfDyFhn0'
+            trailerLink: 'http://www.youtube.com/embed/bmTCfDyFhn0',
+            photoAutor: 'Na Boga! - fot. Bartłomiej Sowa'
         });
     }
     if(req.params.eventName == 'wsamopoludnie'){
@@ -256,7 +266,8 @@ router.get('/program/:eventName', function(req, res) {
             review: '(…) Wałbrzyski zespół w spektaklu przypomina, że marzymy o dobrym szeryfie za każdym razem, idąc na wybory. Tymczasem po latach zostaje lament skarg jak w litanii zlikwidowanych w regionie zakładów: elektrociepłowni, kopalń, fabryk, zakładów odzieżowych. Pokaz slajdów tych miejsc robi wrażenie nie tylko dlatego, że właśnie kandydat z 1989, Ryszard Najsznerski był ich jedynym syndykiem. Także dlatego, że widok z Wałbrzycha na pobojowisko przemysłu przypomina dziś prerię z westernu. Istnieje jeden lek na alergię, nie tylko na teatr, ale też zaczadzenie ideą. Ziemilski stosuje go ze świetnymi efektami – to po prostu myślenie.',
             reviewOrigin:'Adriana Prodeus, "Kowboj czyli kto? Teatr dla uczulonych"',
             imgsNames: ['wsamopoludnie2','wsamopoludnie3','wsamopoludnie4','wsamopoludnie5'],
-            trailerLink: 'http://www.youtube.com/embed/dKohYelQDvU'
+            trailerLink: 'http://www.youtube.com/embed/dKohYelQDvU',
+            photoAutor: 'W samo południe - fot. Bartłomiej Sowa'
         });
     }
     else{

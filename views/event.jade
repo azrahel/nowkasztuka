@@ -2,13 +2,14 @@ extends layout
 
 block content
     #eventGalery
-        a(href='../images/program/'+ event +'/'+ event +'1.jpg').fancybox
-            img(src='../images/program/'+ event +'/'+ event +'1.jpg').mainEventImage
+       #mainImageContainer
+            a(href='../images/program/'+ event +'/'+ event +'1.jpg' rel="group1" title= photoAutor).fancybox
+                img(src='../images/program/'+ event +'/'+ event +'1.jpg').mainEventImage
 
         #rightImgsColumn
             if imgsNames != null
                 each imgName in imgsNames
-                    a(href="../images/program/"+ event +"/"+ imgName + ".jpg").fancybox
+                    a(href="../images/program/"+ event +"/"+ imgName + ".jpg" rel="group1" title= photoAutor).fancybox
                         img(src= "../images/program/"+ event +"/"+ imgName + ".jpg")
 
     .clear.
@@ -108,8 +109,9 @@ block content
     if prizes != null
         span.light.lightBlue.sizeOneEight
             = extraInfo
-        br
-        br
+    br
+    br
+    br
     span.light.sizeOneEight.violet.
         ZWIASTUN
     br
